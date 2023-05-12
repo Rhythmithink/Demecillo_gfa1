@@ -1,0 +1,159 @@
+html {/*this is the whole html*/
+    padding: 0;
+}	
+
+body { /* this is the body*/
+    margin: 0;
+    padding: 0;
+    background-color: 	#eeeeee;
+
+}	  
+
+header { /*this is the header*/
+    z-index: 1;
+      position: sticky;
+      font-size: 20px;
+     top:  0;
+      border-bottom: #EAEAEA solid;
+      background-color: #cc0000;
+    }
+
+#logoo{/*logo*/
+    width:  10px;
+    padding-left: 20px; 
+    top: 0;
+    display: inline-block;
+    color: #EAEAEA;
+}
+
+#nav{ /*nav bar*/
+    width: 700px;
+    float: right;
+
+    }
+
+#nav a { /*styles the links inside nav div*/
+    padding-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    color:  #EAEAEA;
+    text-decoration: none;
+    padding-right: 5%;
+}
+
+#nav a:active { /* makes it so that the text goes down, like a button. Boop*/
+
+transform: translateY(4px);
+
+}
+
+footer {  /* footer!*/
+    width: 100%;
+    padding-top: 10vw;
+    padding-bottom: 8.5vw;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: #111111;
+    margin-top: 5vw;
+    position: relative;
+    bottom: 0;
+}
+
+
+
+article {
+    width: 400px;
+    margin: 14 px;
+    background-color: white;
+    border: #111111 3px solid;
+    height: 600px;
+    text-align: center;
+    display: inline-block;
+}
+#signNOW{
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.tekst{
+    width: 50%;
+    display: inline-block;
+    height: 25px;
+    font-size: 15px;
+}
+
+
+
+
+
+#sin{
+    text-align: center;
+    background-color: #cc0000;
+    color: white;
+    font-size: 40px;
+}
+
+section{
+    text-align: justify;
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding:0;
+    border: white 2px solid;
+}
+
+button{
+    display: inline-block;
+    font-size: 20px;
+    background-color: #cc0000;
+    color: white;
+}
+
+#butons{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+#fm{
+    margin-left: 35%;
+}
+
+input:focus{
+    background-color: rgb(233, 189, 189);
+    outline: lightcoral solid; 
+}
+
+
+#words{
+    vertical-align: center;
+    margin-left: 50px;
+    display: inline-block;
+    width: 40vw;
+    color: black;
+    font-size:32px;
+
+    
+
+}
+#cotnet{
+    margin-top: 2vw;
+    text-align: center;
+    width: 100%;
+    vertical-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
